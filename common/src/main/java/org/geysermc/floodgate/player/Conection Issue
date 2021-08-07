@@ -1,0 +1,11 @@
+07.08 11:11:25 [Server] INFO CONSOLE issued server command: /list 
+07.08 11:11:25 [Server] INFO default: Chupacabra
+07.08 11:11:48 [Server] INFO /190.183.23.62:5016 tried to connect!
+07.08 11:11:51 [Server] INFO Player connected with username FcChupacabra
+07.08 11:12:01 [Server] INFO CONSOLE issued server command: /list 
+07.08 11:12:01 [Server] INFO default: Chupacabra
+07.08 11:12:05 [Server] INFO Attempting to login using floodgate mode... authentication will be encrypted.
+07.08 11:12:05 [Server] WARN Failed to initialize a channel. Closing: com.github.steveice10.packetlib.io.local.ChannelWrapper@44e0135c
+07.08 11:12:05 [Server] INFO java.lang.ClassCastException: class com.github.steveice10.packetlib.io.local.ChannelWrapper cannot be cast to class io.netty.channel.socket.SocketChannel (com.github.steveice10.packetlib.io.local.ChannelWrapper is in unnamed module of loader org.bukkit.plugin.java.PluginClassLoader @67fdbd51; io.netty.channel.socket.SocketChannel is in unnamed module of loader 'app')
+07.08 11:12:05 [Server] INFO at us.myles.ViaVersion.bukkit.handlers.BukkitChannelInitializer.initChannel(BukkitChannelInitializer.java:15) ~[?:?]
+07.08 11:12:05 [Server] INFO at io.netty.channel.ChannelInitializer.initChannel(ChannelInitializer.java:129) ~[patched_1.16.5.jar:git-Paper-551]
